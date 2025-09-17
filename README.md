@@ -14,7 +14,7 @@ Espero que disfrutes el workshop tanto como nosotros hemos disfrutado preparánd
 0. Clona el repositorio
 
 ```bash
-git clone https://github.com/MMLORENA/Workshop-TDD-PulpoCon.git
+git clone https://github.com/MMLORENA/Workshop-TDD-PulpoCon25.git
 ```
 
 1. Instala las dependencias
