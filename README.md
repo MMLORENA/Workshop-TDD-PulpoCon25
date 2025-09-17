@@ -17,19 +17,21 @@ Espero que disfrutes el workshop tanto como nosotros hemos disfrutado preparánd
 git clone https://github.com/MMLORENA/Workshop-TDD-PulpoCon25.git
 ```
 
-1. Instala las dependencias
+1. Comprueba que cumples los requistios de Node.js [Requisitos de Node](#requisitos-de-node)
+
+2. Instala las dependencias
 
 ```bash
 npm install
 ```
 
-2. Ejecuta los tests para asegurarte de que todo está correcto
+3. Ejecuta los tests para asegurarte de que todo está correcto
 
 ```bash
 npm test
 ```
 
-3. Arranca la aplicación en modo desarrollo por si quieres ver el enunciado de las katas de forma más visual pero no es
+4. Arranca la aplicación en modo desarrollo por si quieres ver el enunciado de las katas de forma más visual pero no es
    necesario para el workshop:
 
 ```bash
@@ -72,7 +74,7 @@ npm run test:kata-5
 
 
 
-## Requisitos de Node.js
+## Requisitos de Node
 
 Este workshop requiere **Node.js versión 20.19.0** para garantizar compatibilidad con todas las dependencias.
 
