@@ -52,12 +52,12 @@ export const Presentation = () => {
           🔗 Link para clonarse el repositorio de gitHub: 
           </p>
           <a 
-            href="#" 
+            href="https://shorturl.at/KcIoC" 
             className="footer-link"
             target="_blank" 
             rel="noopener noreferrer"
           >
-            Repositorio del workshop
+            https://shorturl.at/KcIoC
           </a>
         </div>
       </footer>
