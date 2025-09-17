@@ -17,7 +17,7 @@ export const TddWorkFlowPageThree = () => {
             🟢
           </span>
         </h3>
-        <p>Mejorar el código:</p>
+        <p>Haz que pase el test:</p>
         <ul>
           <li className="dot">
             Escribe el mínimo código para que el test pase.{" "}

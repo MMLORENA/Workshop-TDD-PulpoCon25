@@ -33,7 +33,7 @@ export const TddIntroduction = () => {
         </div>
         <div className="note">
           <blockquote>
-            "TDD es una técnica de diseño, no una técnica de testing"
+          "TDD es una manera de manejar el miedo mientras programas."
           </blockquote>
           <cite>— Kent Beck</cite>
         </div>

@@ -12,16 +12,13 @@ export const TddRulesPage = () => {
           <h2>Las 3 reglas fundamentales de TDD</h2>
           <ul>
             <li className="dot">
-              <strong>NUNCA</strong> escribas código de producción sin tener un
-              test que falle.
+              <strong>DEBES</strong> escribir un test que falle, antes de escribir nada de código de producción. 
             </li>
             <li className="dot">
-              <strong>SIEMPRE</strong> verificar que el test falla por la razón
-              que esperas.
+              <strong>NO</strong> deberías escribir más códgio de test del necesario para que falle. 
             </li>
             <li className="dot">
-              <strong>SOLO</strong> puedes refactorizar el código cuando todos
-              los tests están pasando.
+              <strong>NO</strong> deberías escribir más código de producción del necesario para hacer que el test pase. 
             </li>
           </ul>
         </section>
