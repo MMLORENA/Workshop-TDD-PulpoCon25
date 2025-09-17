@@ -1,0 +1,20 @@
+.main-header {
+  padding: 20px 0;
+  min-height: 175px;
+}
+
+
+.main-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 12px;
+}
+
+.main-title--lighter {
+  font-weight: 300;
+  color: var(--color-main-black);
+}

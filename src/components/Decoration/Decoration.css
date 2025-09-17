@@ -1,0 +1,10 @@
+
+.decoration {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  min-height: 65px;
+  width: 100%;
+  padding-top: 40px;
+  font-size: 30px;
+}

@@ -1,0 +1,68 @@
+.extract-pulpos {
+  max-width: 500px;
+  margin: 2.5rem auto;
+  padding: 2.5rem 1.5rem 2rem 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+  text-align: center;
+}
+
+.extract-pulpos__title {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+  letter-spacing: 0.5px;
+}
+
+.extract-pulpos__form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 20px 0;
+}
+
+.extract-pulpos__label {
+  font-weight: 500;
+  padding: 10px 0;
+  text-align: left;
+  color: var(--color-main-black);
+  letter-spacing: 0.2px;
+}
+
+.extract-pulpos__input {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  font-size: 1.15rem;
+  border-radius: 8px;
+}
+
+.extract-pulpos__resultado {
+  padding: 1.2rem 1rem 1rem 1rem;
+  background: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  min-height: 100px;
+}
+
+.extract-pulpos__resultado-title {
+  font-size: 1.1rem;
+  color: var(--color-terciary);
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.extract-pulpos__result {
+  font-size: 2.2rem;
+  min-height: 2.5rem;
+  margin-top: 0.2rem;
+}
+
+
+
+

@@ -1,0 +1,236 @@
+.presentation {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.presentation-header {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+
+.presentation-subtitle {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--color-main-black);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.presentation-subtitle--accent {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-terciary);
+}
+
+.presentation-link {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-terciary);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 87, 183, 0.2);
+}
+
+.presentation-link:hover {
+  background: var(--color-terciary);
+  color: white;
+  text-decoration: none;
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 87, 183, 0.3);
+}
+
+.presentation-link:active {
+  transform: scale(0.95);
+}
+
+.presenters-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.presenter-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+  width: 100%;
+}
+
+.presenter-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.presenter-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border: 4px solid var(--color-secondary);
+  box-shadow: 0 4px 12px rgba(34, 139, 34, 0.2);
+}
+
+.presenter-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.presenter-info {
+  text-align: center;
+}
+
+.presenter-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-main-black);
+  margin: 0 0 0.8rem 0;
+  line-height: 1.3;
+}
+
+.presenter-link {
+  display: inline-block;
+  color: var(--color-terciary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: rgba(0, 87, 183, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.presenter-link:hover {
+  background: var(--color-terciary);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 87, 183, 0.3);
+}
+
+.presentation-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: var(--color-base-dark);
+  margin: 0;
+  font-weight: 400;
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid var(--color-primary);
+  border-radius: 12px;
+  background: rgba(166, 27, 41, 0.05);
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  background: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(166, 27, 41, 0.3);
+}
+
+.footer-link:active {
+  transform: translateY(0);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .presentation {
+    padding: 1.5rem 1rem;
+  }
+  
+  .presentation-link {
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+  
+  .presentation-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .presenters-container {
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .presenter-card {
+    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .presenter-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .presentation-footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+  }
+  
+  .footer-content {
+    gap: 1rem;
+  }
+  
+  .footer-text {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .footer-link {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+  }
+}

@@ -1,0 +1,150 @@
+:root {
+  --color-main-black: #000;
+  --color-primary: #A61B29;
+  --color-secondary: #228B22;
+  --color-terciary: #0057B7;
+  --color-base-light: #9f9fa8;
+  --color-base-dark: #8a8a8a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--color-main-black);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+button {
+  background-color: transparent;
+  color: inherit;
+  border: 2px solid var(--color-secondary);
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: var(--color-base-light);
+    color: var(--color-base-dark);
+    border: 2px solid var(--color-base-light);
+    cursor: not-allowed;
+  }
+
+  &:hover:not(:disabled) {
+    border: 2px solid var(--color-terciary);
+  }
+}
+
+select {
+  background-color: transparent;
+  color: inherit;
+  border: 2px solid var(--color-secondary);
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f5f5ff;
+    border: 2px solid var(--color-terciary);
+  }
+
+  &:focus {
+    border-color: var(--color-terciary);
+    box-shadow: 0 0 0 3px rgba(0, 87, 183, 0.4);
+  }
+}
+
+input {
+  border: 2px solid var(--color-base-light);
+  border-radius: 7px;
+}
+
+input:focus {
+  border-color: var(--color-terciary);
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-terciary);
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+code {
+  line-height: 2rem;
+  font-family: Courier, monospace;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  margin: 30px 0;
+}
+
+.section {
+  padding: 16px 0;
+}
+
+.dot {
+  margin-left: 1rem;
+  list-style-type: disc;
+  line-height: 2;
+}
+
+.less-space {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.note {
+  background: color-mix(in srgb, var(--color-terciary) 10%, #fff 90%);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid var(--color-terciary);
+  color: var(--color-main-black);
+  font-size: 1rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 1px 4px 0 rgba(0, 87, 183, 0.04);
+}
+
+.code {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px 0 rgba(0, 87, 183, 0.10), 0 1.5px 3px 0 rgba(0, 0, 0, 0.04);
+  padding: 1rem 1.5rem;
+  margin: 20px 0;
+}

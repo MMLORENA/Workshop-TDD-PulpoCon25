@@ -1,0 +1,100 @@
+
+.tdd-cycle-diagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tdd-cycle-diagram__step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  min-height: 70px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  margin: 0.2rem 0;
+  padding: 0.7rem 1.2rem;
+  position: relative;
+}
+
+.tdd-cycle-diagram__step--red {
+  border: 2px solid #e53935;
+  background: #ffebee;
+}
+
+.tdd-cycle-diagram__step--green {
+  border: 2px solid #43a047;
+  background: #e8f5e9;
+}
+
+.tdd-cycle-diagram__step--refactor {
+  border: 2px solid #1e88e5;
+  background: #e3f2fd;
+}
+
+.tdd-cycle-diagram__step--repeat {
+  border: 2px dashed #888;
+  background: #f5f5f5;
+}
+
+.tdd-cycle-diagram__title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.tdd-cycle-diagram__desc {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.tdd-cycle-diagram__optional {
+  font-size: 0.95rem;
+  color: #888;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.tdd-cycle-diagram__arrow {
+  font-size: 2rem;
+  color: #888;
+  text-align: center;
+  margin: 0.1rem 0;
+}
+
+.tdd-cycle-diagram__arrow--down::before {
+  content: "\25BC";
+  color: #888;
+}
+
+.tdd-cycle-diagram__arrow--right::before {
+  content: "\25B6";
+  color: #888;
+}
+
+
+.tdd-cycle-diagram__repeat {
+  font-size: 1rem;
+  color: #1e88e5;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.tdd-cycle-diagram__bifurcation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 1rem;
+}
+
+.tdd-cycle-diagram__branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
