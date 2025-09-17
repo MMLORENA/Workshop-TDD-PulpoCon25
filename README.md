@@ -17,7 +17,7 @@ Espero que disfrutes el workshop tanto como nosotros hemos disfrutado preparánd
 git clone https://github.com/MMLORENA/Workshop-TDD-PulpoCon25.git
 ```
 
-1. Comprueba que cumples los requistios de Node.js [Requisitos de Node](#requisitos-de-node)
+1. Comprueba que cumples los requisitos de Node.js [Requisitos de Node](#requisitos-de-node)
 
 2. Instala las dependencias
 
